@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dylan Seto</title>
+</head>
+<body>
+	<div id="intro">
+		<video id="splash" autoplay>
+  			<source id = "video" src="res/intro.mp4" type="video/mp4">
+  			Your browser does not support the HTML5. Skipping intro.
+		</video>
+	</div>
+	
+	<nav id="header" class="navbar navbar-default navbar-fixed-top">
+		<a id="nav-button-about" href="#">ABOUT</a>
+		<a id="nav-button-CV" href="#">CV</a>
+		<a id="nav-button-Projects" href="#">PORTFOLIO</a>
+		<a id="nav-button-Contact" href="#">CONTACT</a>
+	</nav>
+	
+	<div id="ask">
+		<form id="form" class="ask_form" onsubmit="getAnswer()">
+			<input id="askBox" class="form-control" autocomplete=off maxlength="25" placeholder="Ask Me Anything">
+			<p id="counter">25</p>
+		</form>
+		<p id = "answer"></p>
+	</div>
+	
+	
+	<nav id="nav_header" class="navbar navbar-default navbar-fixed-top">
+		<a id="nav-back-button" class="glyphicon glyphicon-remove"></a>
+	</nav>
+	<div id="About-Page">
+		<div id="Header">
+			<p class="Header">Dylan Seto - Something cool</p>
+			<img id="image" src="res/filler.gif"></img>
+		</div>
+		
+		<div class="Contents">
+			<p>Dylan Seto is a programmer, designer and creator from Montreal, Canada. He currently attends Concordia University.</p>
+			<p>He first got interested in programming at only 11 years old when he became interested in creating the video games that he had in his head. He would spend hours of his day drawing silly cartoon characters and learning C++.</p>
+			<p>He would later enroll in Vanier College in 2013 where he began learning Java in school and teaching himself HTML, JavaScript and python in his spare time.</p>
+			<p>In his spare time, he enjoys taking pictures, playing guitar and writing about himself in third person.</p>
+		</div>
+	</div>
+	
+	<div id="CV-Page">
+	</div>
+	
+	<div id="Projects-Page">
+			
+			<div id="blueimp-gallery" class="blueimp-gallery">
+		    <!-- The container for the modal slides -->
+		    <div class="slides"></div>
+		    <!-- Controls for the borderless lightbox -->
+		    <h3 class="title"></h3>
+		    <a class="prev">‹</a>
+		    <a class="next">›</a>
+		    <a class="close">×</a>
+		    <a class="play-pause"></a>
+		    <ol class="indicator"></ol>
+		    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+		    <div class="modal fade">
+		        <div class="modal-dialog">
+		            <div class="modal-content">
+		                <div class="modal-header">
+		                    <button type="button" class="close" aria-hidden="true">&times;</button>
+		                    <h4 class="modal-title"></h4>
+		                </div>
+		                <div class="modal-body next"></div>
+		                <div class="modal-footer">
+		                    <button type="button" class="btn btn-default pull-left prev">
+		                        <i class="glyphicon glyphicon-chevron-left"></i>
+		                        Previous
+		                    </button>
+		                    <button type="button" class="btn btn-primary next">
+		                        Next
+		                        <i class="glyphicon glyphicon-chevron-right"></i>
+		                    </button>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		
+		<div id="links">
+    		<a href="images/0.jpg" title="Banana" data-gallery>
+       		 <img src="res/gallery/0.jpg" alt="0">
+   		 </a>
+    	<a href="images/1.jpg" title="Apple" data-gallery>
+       	 	<img src="res/gallery/1.jpg"" alt="1">
+    	</a>
+    	<a href="images/2.jpg" title="Orange" data-gallery>
+        	<img src="res/gallery/2.jpg"" alt="2">
+    	</a>
+</div>
+	</div>
+	
+	<div id="Contacts-Page">
+		<p>For specific business-related inqueries please contact me by E-mail at Dylan.Seto@outlook.com</p>
+		<p><a href="http:\\]twitter.com/DylanSetoArtist">Twitter</a></p>
+		<a href="DylanSeto.DeviantArt.com">DeviantArt</a>
+		<a href="https://www.linkedin.com/in/dylan-seto-4a4b50113">Linkedin</a>
+		<p>Phone Number: Availble By Request</p>
+		<a href=""></a>
+	</div>
+	
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+	<link rel="stylesheet" href="style/bootstrap-image-gallery.min.css">
+	<link rel="stylesheet" href="style/index_style.css">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/nav_style.css">
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	<script src="scripts/splash.js"></script>
+	<script src="scripts/index.js"></script>
+	<script src="scripts/nav.js"></script>
+	
+</body>
+</html>

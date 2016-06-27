@@ -1,0 +1,70 @@
+@CHARSET "ISO-8859-1";
+
+#Header
+{
+	font-size:60px;
+	margin-top:100px;
+	margin-left:4%;
+}
+
+#About-Page
+{
+	display:none;
+}
+
+#CV-Page
+{
+	display:none;
+}
+
+#Contacts-Page
+{
+	display:none;
+}
+
+#Projects-Page
+{
+	display:none;
+}
+
+#About_Pic
+{
+	height:200px;
+}
+.Contents
+{
+	width:40%;
+	margin-left:4%;
+	font-size:20px;
+	color:white;
+	margin-top: -290px;
+}
+#image
+{
+	position: relative;
+    left: 50%;
+   	 margin-top: 15%;
+    z-index: -1;
+
+}
+#nav_header
+{
+	display:none;
+	background-color:transparent;
+	border-color: transparent;
+}
+
+#nav-back-button
+{
+	color: white !important;
+	font-size:50px;
+	text-decoration:none;
+	position:absolute;
+	right:0;
+}
+
+#nav-back-button:hover
+{
+	color: #D3D3D3 !important;
+	text-decoration:none;
+}

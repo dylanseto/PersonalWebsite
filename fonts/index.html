@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ECHO.AM</title>
+
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+	<link rel="stylesheet" href="style/index_style.css">
+	<link rel="stylesheet" href="style/echo_style.css">
+	
+</head>
+<body>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	<script src="scripts/echo.js"></script>
+	
+	<nav id="header" class="navbar navbar-default">
+		<div class="dropdown">
+  			<button id = "menu" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+ 			 	<span class="glyphicon glyphicon-menu-hamburger"></span>
+ 			 </button>
+  			<ul id = "dropdownmenu"class="dropdown-menu">
+    			<li><a href="#">About</a></li>
+    			<li><a href="#">Blog</a></li>
+    			<li class="divider"><a href="#"></a></li>
+    			<li><a href="#">Privacy</a></li>
+    			<li><a href="#">Terms</a></li>
+    			<li class="divider"><a href="#"></a></li>
+    			<li><a href="#">Help</a></li>
+    			<li><a href="#">Donate</a></li>
+    			<li><a href="#">Advertise</a></li>
+  			</ul>
+		</div>
+	</nav>
+	<div id ="input" >
+		<form class="rant_form" onSubmit="echo()">
+			<textarea id="rant" class="form-control" maxlength="1000" placeholder="ECHO.AM"></textarea>
+			<Button id="submit" for="rant" class="btn btn-default" type="submit">ECHO</Button>
+		</form>
+	</div>
+	
+	<div id = "Tabs">
+		<ul class="nav nav-tabs">
+  			<li class="active" onclick="changeTab(8)"><a data-toggle="tab" href="#8">Popular 8 Hours</a></li>
+  			<li onclick="changeTab(24)"><a data-toggle="tab" href="#24">Popular 24 Hours</a></li>
+  			<li onclick="changeTab('allTime')"><a data-toggle="tab" href="#time">Popular All Time</a></li>
+  			<li onclick="changeTab('latest')"><a data-toggle="tab" href="#lastest">Latest</a></li>
+  			<li onclick="changeTab('controversial')"><a data-toggle="tab" href="#controversial">Controversial</a></li>
+  			<li onclick="changeTab('promoted')"><a data-toggle="tab" href="#ads">Promoted</a></li>
+		</ul>
+		
+	</div>
+	<div id = "articles">
+		<article class = "article">
+		
+			<div class ="stats">
+				<div class = "likeArrow"></div>
+				<div class = "Hits">0</div>
+				<div class = "dislikeArrow"></div>
+			</div>
+			
+			<div class = "blurb">
+				<p class="article_header">Echo #200 Posted: Jan 18th, 2016:</p>
+				<p class="article_post">i wish this was still a thing. i just broke up with my boyfriend. he isn't sure if he loves me/wants to be with me...even after 18 months and we live together. he owns the house we live in. he won't let me keep our cat either. and i love her so much. which might seem stupid because she's just a cat but she's my baby. i love him but can't stay with someone who won't love me. so i lose my boyfriend, my home and my cat. heartbreak sucks.</p>
+			</div>
+		</article>
+		
+		<article class = "article">
+		
+			<div class ="stats">
+				<div class = "likeArrow"></div>
+				<div class = "Hits">0</div>
+				<div class = "dislikeArrow"></div>
+			</div>
+			
+			<div class = "blurb">
+				<p class="article_header">Echo #200 Posted: Jan 18th, 2016:</p>
+				<p class="article_post">fam, did you ever? have you ever just sat back and thought goddamn what am i doing with my life. a part of me feels like this isn't really and issue for you, you know. you and royalty doing what you love. but at the same time that's ignorant as fuck because it's way more likely that you've been unsure in life. and i just. like the fuck am i doing. i'm really drunk. that's been my way of dealing with my breakup. getting drunk because i feel like it should be allowed right? but then</p>
+			</div>
+		</article>
+	</div>
+</body>
+</html>
