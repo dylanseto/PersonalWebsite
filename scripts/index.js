@@ -313,7 +313,7 @@ var parse=function(text)
 	case "what are your values":
 	case "motto":
 	case "what is your motto":
-		answer = "Make the best product of all time, always."; break;
+		answer = "To make the best product of all time."; break;
 	case "why is the page so simple":
 		answer = "I designed it to be easy to navigate."; break;
 	case "simplicity":
@@ -354,6 +354,8 @@ var parse=function(text)
 	case "why did you make this site":
 	case "purpose of this site":
 	case "reason for this site":
+	case "what is this website for?":
+	case "what is this website?":
 		answer = "To demonstrate my skills in a creative way."; break;
 	case "why am i here":
 		answer = "I don't know."; break;
