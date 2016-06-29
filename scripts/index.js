@@ -387,6 +387,8 @@ var parse=function(text)
 		answer = "...is dead and we killed him."; break;
 	case "wtf":
 		answer = "Where's the fudge? I'm hungry."; break;
+	case "anything":
+		answer = "Thanks. Smartass."; break;
 	default: 
 		answer = "Not sure how to respond to this question; try emailing it to me at Dylan.Seto@outlook.com"; 
 	}
