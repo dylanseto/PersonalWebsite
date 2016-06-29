@@ -11,12 +11,19 @@
 		
 var load=function()
 {
-	$("#intro").fadeOut(1000);
+	var video = document.getElementById('intro');
+	video.load();
 	
-	
-	setTimeout(function(){    
-		load2();
-	}, 1000);
+	video.addEventListener('loadeddata', function() {
+		   // Video is loaded and can be played
+			$("#intro").fadeOut(1000);
+			
+			
+			setTimeout(function(){    
+				load2();
+			}, 1000);
+	}, false);
+
 }
 
 var load2=function()
