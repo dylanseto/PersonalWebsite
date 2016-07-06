@@ -4,13 +4,26 @@
 
 /*var splash = function()
 {*/
-	setTimeout(function(){    
+	/*setTimeout(function(){    
 			load();
-	}, 7000);
+	}, 7000);*/
 //}
+	
+$('#splash').on('canplay canplaythrough', function(){
+	var video = document.getElementById("splash");
+	video.play();
+    console.log('canplay event fired');
+    
+    setTimeout(function(){    
+		load();
+    }, 7000);
+});
 		
 var load=function()
 {
+	
+	var video = document.getElementById("splash");
+	
 	$("#intro").fadeOut(1000);
 	
 	

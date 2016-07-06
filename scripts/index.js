@@ -120,6 +120,7 @@ var parse=function(text)
 	case "can i kill you":
 	case "how can i kill you":
 	case "how do i kill you":
+	case "i want to kill you":
 		answer = "In the death kind of way? Not cool, dude."; break;
 	case "who are you":
 	case "who r u":
@@ -133,6 +134,8 @@ var parse=function(text)
 	case "who is dylan seto":
 	case "Who the hell are you":
 		answer = "I am Dylan Seto. And you are?"; break;
+	case "420":
+		answer = "I woke up on my born day, I'm 20, it's a blessing."; break;
 	case "who am i":
 		answer = "You tell me."; break;
 	case "what do you do":
@@ -189,6 +192,7 @@ var parse=function(text)
 		answer = "English: Fluent. French: Functional";
 	case "programming":
 	case "lanaguages":
+	case "coding":
 	case "coding experience":
 	case "programming languages":
 	case "skills":
@@ -201,7 +205,7 @@ var parse=function(text)
 	case "show me your resume":
 	case "where's your cv":
 	case "where's your resume":
-		answer = "See Resume in the info tab above."; break;
+		answer = "See Resume in the CV tab above."; break;
 	case "who made this website?":
 	case "who made this":
 	case "who made this site":
@@ -377,7 +381,7 @@ var parse=function(text)
 	case "stolen":
 	case "web design":
 	case "art direction":
-			answer = "This site's design is modelled after NextExit.Website. Shout out of Benji Taylor."; break;
+			answer = "This site's design is modelled after NextExit.Website. Shout out of Benji Taylor. I hate that kid."; break;
 	case "lemonade":
 		answer = "Used to be a really good drink. I think it's a Beyonce record now."; break;
 	case "jesus christ":
@@ -388,7 +392,7 @@ var parse=function(text)
 	case "wtf":
 		answer = "Where's the fudge? I'm hungry."; break;
 	case "anything":
-		answer = "Thanks. Smartass."; break;
+		answer = "You seem smart."; break;
 	default: 
 		answer = "Not sure how to respond to this question; try emailing it to me at Dylan.Seto@outlook.com"; 
 	}
