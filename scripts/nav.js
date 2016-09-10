@@ -13,7 +13,7 @@ document.getElementById("nav-button-about").onclick=function(e)
 	});
 }
 
-document.getElementById("nav-button-CV").onclick=function(e)
+/*document.getElementById("nav-button-CV").onclick=function(e)
 {
 	console.log("about");
 	$("#header").fadeOut(1000);
@@ -45,7 +45,7 @@ document.getElementById("nav-button-Contact").onclick=function(e)
 		$("#nav_header").hide().fadeIn(1000);
 	});
 	
-}
+}*/
 
 document.getElementById("nav-back-button").onclick=function(e)
 {

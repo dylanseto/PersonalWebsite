@@ -226,7 +226,7 @@ var parse=function(text)
 	case "graphic design":
 	case "design":
 	case "graphics":
-		answer = "I am profficient in Adobe Photoshop."; break;
+		answer = "I am profficient in Adobe Photoshop. I enjoy slick, minimal designs."; break;
 	case "favorite":
 		answer = "You are my favorite person right now."; break;
 	case "favorite food":
@@ -262,7 +262,7 @@ var parse=function(text)
 	case "do you know bootstrap":
 	case "do you know eclipse":
 	case "should i hire you":
-	case "design":
+	case "should we hire you":
 	case "java":
 	case "eclipse":
 	case "visual studio":
@@ -391,8 +391,16 @@ var parse=function(text)
 		answer = "...is dead and we killed him."; break;
 	case "wtf":
 		answer = "Where's the fudge? I'm hungry."; break;
+	case "larry page":
+	case "sergey brin":
+		answer = "is a hero, genius and innovator."; break;
 	case "anything":
 		answer = "You seem smart."; break;
+	case "google":
+	case "alphabet":
+	case "google x":
+	case "android":
+		answer = "Should hire me because I'm dedicated to my work and I care about good product."; break;
 	default: 
 		answer = "Not sure how to respond to this question; try emailing it to me at Dylan.Seto@outlook.com"; 
 	}
