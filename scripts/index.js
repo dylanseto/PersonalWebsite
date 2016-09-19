@@ -133,6 +133,9 @@ var parse=function(text)
 	case "what's ur name":
 	case "who is dylan seto":
 	case "Who the hell are you":
+	case "what is your name":
+	case "whats your name":
+	case "what is ur name":
 		answer = "I am Dylan Seto. And you are?"; break;
 	case "420":
 		answer = "I woke up on my born day, I'm 20, it's a blessing."; break;
@@ -223,10 +226,6 @@ var parse=function(text)
 	case "free":
 	case "information":
 		answer = "#FreeInformation"; break;
-	case "graphic design":
-	case "design":
-	case "graphics":
-		answer = "I am profficient in Adobe Photoshop. I enjoy slick, minimal designs."; break;
 	case "favorite":
 		answer = "You are my favorite person right now."; break;
 	case "favorite food":
@@ -371,7 +370,7 @@ var parse=function(text)
 	case "where is your resume":
 	case "where can i find your cv":
 	case "where can I find your resume":
-		answer = "Click the little info button in the top left corner under my name."; break;
+		answer = "Request at Dylan.Seto@outlook.com"; break;
 	case "inspiration":
 	case "design inspiration":
 	case "where did you get your inspiration from":
@@ -381,6 +380,7 @@ var parse=function(text)
 	case "stolen":
 	case "web design":
 	case "art direction":
+	case "design":
 			answer = "This site's design is modelled after NextExit.Website. Shout out of Benji Taylor. I hate that kid."; break;
 	case "lemonade":
 		answer = "Used to be a really good drink. I think it's a Beyonce record now."; break;
