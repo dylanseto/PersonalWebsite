@@ -401,6 +401,19 @@ var parse=function(text)
 	case "google x":
 	case "android":
 		answer = "Should hire me because I'm dedicated to my work and I care about good product."; break;
+	case "projects":
+	case "what projects have you done":
+	case "project":
+		answer = "See projects Tab above."; break;
+	case "school":
+	case "university":
+	case "what school do you go to":
+	case "what uni do you go to":
+	case "what uni do u go to":
+	case "wat uni do u go to":
+	case "uni":
+	case "college":
+			answer = "I'm currently pursuing Computer Science at Concordia University."; break;
 	default: 
 		answer = "Not sure how to respond to this question; try emailing it to me at Dylan.Seto@outlook.com"; 
 	}
