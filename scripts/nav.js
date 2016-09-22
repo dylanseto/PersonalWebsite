@@ -22,6 +22,17 @@ document.getElementById("nav-button-about").onclick=function(e)
 		$("#CV-Page").hide().fadeIn(1000);
 		$("#nav_header").hide().fadeIn(1000);
 	});
+}*/
+
+/*document.getElementById("nav-button-CV").onclick=function(e)
+{
+	console.log("about");
+	$("#header").fadeOut(1000);
+	$("#ask").fadeOut(1500, function()
+	{
+		$("#CV-Page").hide().fadeIn(1000);
+		$("#nav_header").hide().fadeIn(1000);
+	});
 }
 
 document.getElementById("nav-button-Projects").onclick=function(e)
